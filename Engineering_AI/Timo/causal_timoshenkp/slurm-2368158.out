@@ -1,0 +1,39 @@
+Autoloading cuda/11.1.1
+Autoloading cudnn/8.0.5.39-11.1
+Autoloading eigen/3.4.0
+Autoloading fxdiv/2020-04-17
+Autoloading magma/2.6.1-openblas
+Autoloading nccl/2.9.9-1
+Autoloading numactl/2.0.14
+Autoloading openblas/0.3.18
+Autoloading protobuf/3.15.7
+Autoloading psimd/2020-05-17
+Autoloading pthreadpool/2021-04-13
+Autoloading py-future/0.18.2
+Autoloading python/3.8.12
+Autoloading py-numpy/1.19.4-openblas
+Autoloading py-setuptools/58.2.0
+Autoloading py-protobuf/3.17.3
+Autoloading py-six/1.15.0
+Autoloading py-pybind11/2.6.2
+Autoloading py-pyyaml/5.3.1
+Autoloading libyaml/0.2.5
+Autoloading py-tqdm/4.62.3
+Autoloading py-typing-extensions/3.7.4.3
+Autoloading valgrind/3.17.0
+Autoloading freetype/2.11.0
+Autoloading libpng/1.6.37
+Autoloading py-cycler/0.10.0
+Autoloading py-kiwisolver/1.3.2
+Autoloading py-pillow/8.0.0
+Autoloading libjpeg-turbo/2.1.0
+Autoloading zlib/1.2.11
+Autoloading py-pyparsing/2.4.7
+Autoloading py-python-dateutil/2.8.2
+Autoloading qhull/2020.2
+Traceback (most recent call last):
+  File "main.py", line 359, in <module>
+    test = torch.cat([x_test, t_test],1)
+RuntimeError: Tensors must have same number of dimensions: got 2 and 1
+srun: error: gpu005: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=2368158.0
